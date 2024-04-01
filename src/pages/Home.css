@@ -1,0 +1,24 @@
+#home {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.home-title {
+    color: var(--yellow);
+    padding-left: 10vw;
+    font-family: "Spirax", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 87px;
+    cursor: pointer;
+}
+
+.home-bg {
+    position: absolute;
+    width: 65vw;
+    height: auto;
+    z-index: 0;
+    top: 0;
+    right: 3%;
+}

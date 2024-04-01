@@ -1,0 +1,19 @@
+#video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.video-title {
+    color: var(--yellow);
+    font-size: 54px;
+    font-family: var(--spirax);
+}
+
+.video-vid {
+    background-color: white;
+    width: 75%;
+    height: 60vh;
+}

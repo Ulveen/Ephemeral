@@ -1,0 +1,23 @@
+#kredit {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.kredit-title {
+    color: var(--yellow);
+    font-size: 54px;
+    font-family: var(--spirax);
+}
+
+.kredit-people {
+    padding: 0 7vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
