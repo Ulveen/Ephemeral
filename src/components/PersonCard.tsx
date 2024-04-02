@@ -18,7 +18,7 @@ export default function PersonCard({ person }: Props) {
             <div className='person-card-detail'>
                 <p>{person.nama}</p>
                 <p>{person.nim}</p>
-                <p>As {person.role}</p>
+                {/* <p>As {person.role}</p> */}
             </div>
         </div>
     )

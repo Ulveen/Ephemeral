@@ -12,32 +12,32 @@ export default function Kredit() {
         },
         {
             image: "",
-            nama: "Alvin",
+            nama: "Axelle",
+            nim: "2602057690",
+            role: "Role",
+        },
+        {
+            image: "",
+            nama: "Catherine",
+            nim: "2602072760",
+            role: "Role",
+        },
+        {
+            image: "",
+            nama: "Karina",
             nim: "2602103601",
             role: "Role",
         },
         {
             image: "",
-            nama: "Alvin",
-            nim: "2602103601",
+            nama: "Nicholas",
+            nim: "2602099680",
             role: "Role",
         },
         {
             image: "",
-            nama: "Alvin",
-            nim: "2602103601",
-            role: "Role",
-        },
-        {
-            image: "",
-            nama: "Alvin",
-            nim: "2602103601",
-            role: "Role",
-        },
-        {
-            image: "",
-            nama: "Alvin",
-            nim: "2602103601",
+            nama: "Shanna",
+            nim: "2602077843",
             role: "Role",
         }
     ]
