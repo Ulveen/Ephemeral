@@ -21,3 +21,15 @@
     flex-wrap: wrap;
     gap: 3vw;
 }
+
+@media screen and (max-width: 768px) {
+    .kredit-title {
+        font-size: 30px;
+    }
+
+    .kredit-people {
+        padding: 0 5vw;
+        gap: 4vw;
+    }
+    
+}

@@ -22,14 +22,20 @@
 }
 
 .root {
-    scroll-behavior: smooth;
-    cursor: none;
+    background-color: black;
 }
 
 .page {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    padding: 2%;
     padding-top: calc(var(--navbar-height) + var(--navbar-padding));
     background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        padding-top: 0;
+        height: 50vh;
+    }
+    
 }

@@ -15,5 +15,16 @@
 .video-vid {
     background-color: white;
     width: 75%;
-    height: 60vh;
+    height: 70vh;
+}
+
+@media screen and (max-width: 768px) {
+    .video-title {
+        font-size: 30px;
+    }
+
+    .video-vid {
+        width: 80%;
+        height: 20vh;
+    }
 }

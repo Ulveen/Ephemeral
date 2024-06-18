@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Kredit from "./pages/Kredit";
 import Sinopsis from "./pages/Sinopsis";
 import Video from "./pages/Video";
-import CustomCursor from "./components/CustomCursor";
 
 export default function App() {
 
@@ -34,7 +33,6 @@ export default function App() {
         <Sinopsis />
         <Video />
         <Kredit />
-        <CustomCursor />
       </ScrollProvider>
     </div>
   );

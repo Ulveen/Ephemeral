@@ -32,3 +32,25 @@
     font-size: 22px;
     font-family: var(--poppins);
 }
+
+@media screen and (max-width: 768px) {
+    .sinopsis-title {
+        font-size: 30px;
+    }
+
+    .sinopsis-content {
+        width: 80%;
+        padding-bottom: 0;
+    }
+
+    .sinopsis-bg {
+        width: 90vw;
+        left: 0;
+        top: 5vh;
+    }
+
+    .sinopsis-description {
+        font-size: 12px;
+    }
+
+}
