@@ -14,7 +14,7 @@
 :root {
     --yellow: #FFDF00;
 
-    --navbar-height: 5vh;
+    --navbar-height: 15vh;
     --navbar-padding: 5vh;
 
     --spirax: "Spirax", system-ui;
@@ -23,6 +23,7 @@
 
 .root {
     scroll-behavior: smooth;
+    cursor: none;
 }
 
 .page {

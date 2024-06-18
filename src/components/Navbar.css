@@ -3,8 +3,8 @@
     top: 0;
     width: 100%;
     height: var(--navbar-height);
-    background-color: transparent;
     z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-content {
@@ -20,7 +20,7 @@
     font-weight: 100;
     font-style: normal;
     font-size: 29px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .navbar-link {
@@ -28,5 +28,13 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    cursor: pointer;
+    /* cursor: pointer; */
+}
+
+.navbar-title:hover {
+    color: var(--yellow);
+}
+
+.navbar-link:hover {
+    color: var(--yellow);
 }
