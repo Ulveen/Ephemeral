@@ -1,7 +1,9 @@
 #video {
+    padding-top: 0;
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 2vh;
 }
