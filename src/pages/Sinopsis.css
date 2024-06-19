@@ -39,8 +39,9 @@
     }
 
     .sinopsis-content {
-        width: 80%;
+        width: 90%;
         padding-bottom: 0;
+        justify-content: center;
     }
 
     .sinopsis-bg {

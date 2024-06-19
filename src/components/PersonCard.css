@@ -11,6 +11,7 @@
     width: 20vw;
     height: 20vw;
     background-color: white;
+    object-fit: cover;
 }
 
 .person-card-detail {

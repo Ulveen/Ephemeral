@@ -5,37 +5,37 @@ export default function Kredit() {
 
     const peoples: Person[] = [
         {
-            image: "",
+            image: "Alvin.jpg",
             nama: "Alvin",
             nim: "2602103601",
             role: "Role",
         },
         {
-            image: "",
+            image: "Axelle.jpg",
             nama: "Axelle",
             nim: "2602057690",
             role: "Role",
         },
         {
-            image: "",
+            image: "Catherine.jpg",
             nama: "Catherine",
             nim: "2602072760",
             role: "Role",
         },
         {
-            image: "",
+            image: "Karina.jpg",
             nama: "Karina",
             nim: "2602103601",
             role: "Role",
         },
         {
-            image: "",
+            image: "Nicholas.jpg",
             nama: "Nicholas",
             nim: "2602099680",
             role: "Role",
         },
         {
-            image: "",
+            image: "Shanna.jpg",
             nama: "Shanna",
             nim: "2602077843",
             role: "Role",
