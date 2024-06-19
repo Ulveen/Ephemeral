@@ -5,6 +5,7 @@
     align-items: center;
     margin-bottom: 5%;
     gap: 2vh;
+    z-index: 10;
 }
 
 .person-card-image {
@@ -12,6 +13,7 @@
     height: 20vw;
     background-color: white;
     object-fit: cover;
+    z-index: 10;
 }
 
 .person-card-detail {
@@ -21,6 +23,7 @@
     font-family: var(--poppins);
     font-size: 22px;
     font-weight: 400;
+    z-index: 10;
 }
 
 @media screen and (max-width: 768px) {

@@ -6,6 +6,8 @@
     justify-content: center;
     flex-direction: column;
     gap: 5vh;
+    overflow-y: visible;
+    z-index: 1;
 }
 
 .video-title {
@@ -18,6 +20,7 @@
     background-color: white;
     width: 75%;
     height: 70vh;
+    z-index: 2;
 }
 
 @media screen and (max-width: 768px) {

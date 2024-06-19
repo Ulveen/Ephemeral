@@ -50,6 +50,8 @@ export default function Kredit() {
                     return <PersonCard key={index} person={person} />
                 })}
             </div>
+            <img src="/bg3.png" className="kredit-bg" id="kredit-bg1" />
+            <img src="/bg4.png" className="kredit-bg" id="kredit-bg2" />
         </div>
     )
 }

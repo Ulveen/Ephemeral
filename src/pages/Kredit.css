@@ -5,12 +5,14 @@
     align-items: center;
     flex-direction: column;
     gap: 5vh;
+    z-index: 1;
 }
 
 .kredit-title {
     color: var(--yellow);
     font-size: 54px;
     font-family: var(--spirax);
+    z-index: 2;
 }
 
 .kredit-people {
@@ -20,6 +22,24 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 3vw;
+    z-index: 2;
+}
+
+.kredit-bg {
+    position: absolute;
+    z-index: -10;
+}
+
+#kredit-bg1 {
+    left: 0;
+    top: -5vh;
+    width: 30vw;
+    height: 70vh;
+}
+
+#kredit-bg2 {
+    top: 0;
+    right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,6 +50,16 @@
     .kredit-people {
         padding: 0 5vw;
         gap: 4vw;
+    }
+
+    #kredit-bg1 {
+        width: 40vw;
+        height: auto;
+    }
+
+    #kredit-bg2 {
+        width: 40vw;
+        height: auto;
     }
     
 }
