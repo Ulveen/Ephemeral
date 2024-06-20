@@ -25,13 +25,13 @@ export default function Kredit() {
         {
             image: "Karina.jpg",
             nama: "Karina",
-            nim: "2602103601",
+            nim: "2602099680",
             role: "Role",
         },
         {
             image: "Nicholas.jpg",
             nama: "Nicholas",
-            nim: "2602099680",
+            nim: "2602175840",
             role: "Role",
         },
         {

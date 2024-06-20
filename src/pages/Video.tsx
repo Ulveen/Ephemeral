@@ -40,7 +40,9 @@ export default function Video() {
                             allowFullScreen
                         />
                         <iframe className='video-vid'
-                            src="https://binusianorg-my.sharepoint.com/personal/vincentius_tanoto_binus_ac_id/_layouts/15/embed.aspx?UniqueId=8b6aa059-de94-49fa-9d5b-692e1ae120b0&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+                            src="
+                            https://binusianorg-my.sharepoint.com/personal/vincentius_tanoto_binus_ac_id/_layouts/15/embed.aspx?UniqueId=8b6aa059-de94-49fa-9d5b-692e1ae120b0&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+                            "
                             allowFullScreen
                             title="Ephemeral Short Movie.mp4"
                         />
